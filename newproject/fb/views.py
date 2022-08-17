@@ -21,4 +21,8 @@ def firstpush(request):
     return render (request,'firstpush.html')
 
 
+def thirdpush(request):
+    return render (request,'thirdpush.html')
+
+
 

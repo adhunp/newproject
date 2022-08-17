@@ -8,5 +8,6 @@ urlpatterns=[
     path('calculater',views.calculater),
     path('array',views.array),
     path('firstpush',views.firstpush),
+    path('thirdpush',views.thirdpush),
 
 ]
