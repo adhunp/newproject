@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <script>
+            //   concat
+
+            // var a=['b','c','d'];
+            // var b=['a','c','d'];
+            // var f=a.concat(b);
+            //    document.getElementById('p1').innerHTML = f
+            
+            // var x=['123','456'];
+            // var y=['789','101112']
+            // var z=x.concat(y);
+            //    document.getElementById('p1').innerHTML = z
+
+            // var x=['adhun'];
+            // var y=['athul'];
+            // var z=x.concat(y);
+            //  document.getElementById('p1').innerHTML = z
+
+            // var x=['red'];
+            // var y=['flower'];
+            // var z=x.concat(y);
+            //  document.getElementById('p1').innerHTML = z
+
+            //  copyWithin     
+
+            // var x=['apple','orange','car','bus'];
+            //     document.getElementById('p1').innerHTML = x.copyWithin(2,0)
+
+            // var x=['1','12','45','7'];
+            //     document.getElementById('p1').innerHTML = x.copyWithin(3,2)
+
+            
+            // var x=['a','12','dd','7'];
+            //     document.getElementById('p1').innerHTML = x.copyWithin(3,0)
+
+            
+            // var x=['2er','12','5','7'];
+            //     document.getElementById('p1').innerHTML = x.copyWithin(0,3)
+
+            // entries
+
+            // var x=['abcd','efg','hijk','lmno'];
+            // var y=x.entries();
+            // for(let x of y){
+            //     document.getElementById('p1').innerHTML += x +'<br>'
+            // }
+
+            // var x=['1','2','3','4'];
+            // var y=x.entries();
+            // for(var x of y){
+            //     document.getElementById('p1').innerHTML += x +'<br>'
+            // }
+
+            // var x=['a','2','ss3','4r'];
+            // var y=x.entries();
+            // for(var x of y){
+            //     document.getElementById('p1').innerHTML += x +'<br>'
+            // }
+
+              //every
+
+            // var n1=['1','2','3','4','5','6'];
+            //       document.getElementById('p1').innerHTML = n1.every(age);
+
+            //       function age(n1){
+            //               return n1>0;
+            //       }
+
+            // var n1=['0','1','2'];
+            //     document.getElementById('p1').innerHTML = n1.every(age);
+            //     function age(n1){
+            //         return n1>-1
+            //     }
+            
+                  //fill
+
+                //   var x=['a','b','c','d','f','g','h','j','k'];
+                //   document.getElementById('p1').innerHTML = x.fill('e',1,4);
+
+            // Filter
+
+            // var x=['1','2','22','55','23'];
+
+            // document.getElementById('p1').innerHTML = x.filter(age)
+
+            // function age(x){
+            //     return x < 22;
+            // }
+
+            //  var x=['1','22','18','55','45'];
+
+            // document.getElementById('p1').innerHTML = x.filter(age)
+
+            // function age(x){
+            //     return x >=18;
+            // }
+
+            //foreach
+            // var sum = 0;
+            // var x = [12,15,18];
+            // x.forEach(add);
+            // document.getElementById('p1').innerHTML = sum;
+            // function add(y){
+            //        sum += y;
+            // }
+
+            // var sum=0;
+            // var x=[1,2,3,4,5];
+            // x.forEach(add);
+            // document.getElementById('p1').innerHTML = sum;
+            // function add(y){
+            //        sum += y;
+            // }
+
+            // from method
+
+            // var text='abcdefg'
+            // const myarr=Array.from(text);
+            // document.getElementById('p1').innerHTML = myarr;
+
+            // include
+
+            //  var text=['a','b','c','d'];
+            //  document.getElementById('p1').innerHTML = text.includes('d');
+          
+            // indexof
+              //  var text=['a','b','c','d'];
+              //  const index=text.indexOf('c');
+              //  document.getElementById('p1').innerHTML = index;
+
+            // isarray
+              //  var text=['a','b','c','d'];
+              //  var isarray=Array.isArray(text);
+              //  document.getElementById('p1').innerHTML = isarray;
+
+              // var text='a';
+              //  var isarray=Array.isArray(text);
+              //  document.getElementById('p1').innerHTML = isarray;
+
+              // join
+              //  var text=['a','b','c','d'];
+              //  var join=text.join();
+              //  document.getElementById('p1').innerHTML = join;
+
+              // var text=['a','b','c','d'];
+              // var join=text.join('and');
+              // document.getElementById('p1').innerHTML = join;
+
+              // keys
+              // const a=['a','b','c','d'];
+              // const keys=a.keys();
+              // let text ='';
+              // for(var x of keys){
+              //   text += x +'<br>'
+              // }
+              // document.getElementById("p1").innerHTML = text;
+
+                //lastindexof
+                // const a=['a','c','b','c','d','c'];
+                // let index=a.lastIndexOf('c');//here printing position of last 'c'
+                // document.getElementById('p1').innerHTML = index;
+
+                // length
+                // const a=['a','b','c','d'];
+                // var length=a.length;
+                // document.getElementById('p1').innerHTML = length;
+
+                //map
+                // var number=[4,36,25,49];
+                // document.getElementById('p1').innerHTML =number.map(Math.sqrt);
+
+                //pop removing last element in array
+                // const a=['a','b','c','d'];
+                // a.pop();
+                // document.getElementById('p1').innerHTML = a;
+
+                // prototype
+                // Array.prototype.myUcase = function() {
+                // for (let i = 0; i < this.length; i++) {
+                // this[i] = this[i].toUpperCase();
+                // }
+                // };
+                
+                // const a=['a','b','c','d'];
+                // a.myUcase();
+                // document.getElementById('p1').innerHTML = a;
+
+                //push
+                // const a=['a','b','c','d'];
+                // a.push('e');
+                // document.getElementById('p1').innerHTML = a;
+
+                //reduce
+              //  const numbers = [4,2,1];
+              //  document.getElementById("p1").innerHTML = numbers.reduce(myFunc);
+              //  function myFunc(total, num) {
+              //  return total - num;
+              // }
+               
+              //  //reverse
+              //  const a=['a','b','c','d']
+              //  document.getElementById('p1').innerHTML=a.reverse();
+
+              //shift
+              // const a=['a','b','c','d']
+              // a.shift();
+              // document.getElementById('p1').innerHTML=a;
+
+              //some
+              // const n1 = [10,12,18,24];
+              // document.getElementById("p1").innerHTML = n1.some(checkAdult);
+              // function checkAdult(age) {
+              // return age > 18;
+              // }
+
+              //sort
+              // const n1=['e','d','c','b','a'];
+              // document.getElementById('p1').innerHTML = n1.sort();
+
+              //splice
+              // const a=['a','b','c','d'];
+              // a.splice(1,0,'adhun','athul','adhu');
+              // document.getElementById('p1').innerHTML = a;
+
+              //toString here all array values separated by commas:
+              // const a=['apple','best','coool','degree'];
+              // let text = a.toString();
+              // document.getElementById('p1').innerHTML = a;
+
+              //unshift
+              // const a=['a','b','c','d'];
+              // a.unshift('1','2');
+              // document.getElementById('p1').innerHTML = a;
+
+              //valueof
+              const a=['a','b','c','d'];
+              var array=a.valueOf();
+              document.getElementById('p1').innerHTML = array;
+
+
+        </script>
+</body>
+</html>
