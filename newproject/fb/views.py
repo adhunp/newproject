@@ -17,5 +17,8 @@ def calculater(request):
 def array(request):
     return render (request,'domarray.html')
 
+def firstpush(request):
+    return render (request,'firstpush.html')
+
 
 
